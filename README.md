@@ -17,4 +17,6 @@ Example:
 <img class="dynamic-avatar no-center pack-avatar" src="https://mkultra.monster/system/accounts/avatars/111/939/142/189/797/780/original/f0c02ed45a83472f.png" height="100" width="100">
 Author: <a id="author-link" href="https://mkultra.monster/@cmdr_nova" target="_blank">{{ page.author }}</a>
 ```
+(the liquid isn't necessary, this is just part of Jekyll making calls to the front matter of a post, which I'm overriding)
+
 And voila! Now your avatar and author name will update automatically on your website *any time you change them on Mastodon.*
