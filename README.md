@@ -8,11 +8,10 @@ Save both JavaScript files into a directory on your website. Make sure to includ
 <script src="/path/to/dynamic-avatar.js"></script>
 <script src="/path/to/dynamic-author.js"></script>
 ```
-Be sure to replace the
+Be sure to replace this section at the top of each script with whatever your Mastodon profile is.
 ```
 https://your.mastodon.profile
 ```
-portion at the top of each script with whatever your Mastodon profile is.
 
 Then, let's say you're writing blog posts on your site, and you want these elements to update automatically with whatever it says on your Mastodon profile, *even if you change it* (elminating the need to update a bunch of things, taking up sweet, sweet time).
 
