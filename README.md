@@ -15,7 +15,7 @@ https://your.mastodon.profile
 
 Then, let's say you're writing blog posts on your site, and you want these elements to update automatically with whatever it says on your Mastodon profile, *even if you change it* (elminating the need to update a bunch of things, taking up sweet, sweet time).
 
-Include "dynamic-avatar" as a class on an IMG element, and include "author-link" as an id in an <a> tag.
+Include "dynamic-avatar" as a class on an IMG element, and include "author-link" as a class in an <a> tag.
 
 Example:
 ```
